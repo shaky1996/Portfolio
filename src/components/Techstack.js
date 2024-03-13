@@ -15,43 +15,48 @@ const Techstack = () => {
                         TechStack
                     </h2>
                     <Container className='mt-5'>
-                    <p className='pt-4'>
-                        I am currently most famliar with <strong>HTML, CSS, Bootstrap,
-                        JavaScript, React </strong> and <strong>React Native</strong>. <br />
-                        <br />
-                        However, I am continuously expanding my knowledge and
-                        actively seeking opportunities to learn and grow each
-                        day.
-                    </p>
+                        <p className='pt-4'>
+                            I am currently most famliar with{' '}
+                            <strong>
+                                HTML, CSS, Bootstrap, JavaScript, React{' '}
+                            </strong>{' '}
+                            and <strong>React Native</strong>. <br />
+                            <br />
+                            However, I am continuously expanding my knowledge
+                            and actively seeking opportunities to learn and grow
+                            each day.
+                        </p>
                     </Container>
                 </Col>
             </Row>
-            <Row xs={3} md={3} lg={6} className='d-flex justify-content-center g-2' style={{}}>
-            
+            <Row
+                xs={3}
+                md={3}
+                lg={6}
+                className='d-flex justify-content-center g-2'
+                style={{}}
+            >
                 {itemData.map((item, idx) => (
-               
-                        <Card key={idx}
+                    <Card
+                        key={idx}
                         className='mx-1 mx-lg-3'
-                            style={{
-                                background: item.color,
-                                width: '150px',
-                                height: '190px',
-                                
-                                
+                        style={{
+                            background: item.color,
+                            width: '150px',
+                            height: '190px'
+                        }}
+                    >
+                        <motion.div
+                            whileHover={{ scale: 1.4 }}
+                            whileTap={{ scale: 2.9 }}
+                            transition={{
+                                type: 'spring',
+                                stiffness: 400,
+                                damping: 17
                             }}
                         >
-                             <motion.div
-                     whileHover={{ scale: 1.4 }}
-                     whileTap={{ scale: 2.9 }}
-                     transition={{
-                         type: 'spring',
-                         stiffness: 400,
-                         damping: 17
-                     }}>
-                           
                             <Card.Img
                                 src={item.img}
-                                
                                 style={{
                                     height: 'auto',
                                     width: '120px',
@@ -59,16 +64,18 @@ const Techstack = () => {
                                     display: 'block'
                                 }}
                             />
-                            </motion.div>
-                            <Card.Body
-                                className='d-flex flex-column align-items-center justify-content-end'
-                                style={{ textAlign: 'center', height: '25%', color: 'white' }}
-                            >
-                                <Card.Title>{item.title}</Card.Title>
-                            </Card.Body>
-                        </Card>
-                
-                        
+                        </motion.div>
+                        <Card.Body
+                            className='d-flex flex-column align-items-center justify-content-end'
+                            style={{
+                                textAlign: 'center',
+                                height: '25%',
+                                color: 'white'
+                            }}
+                        >
+                            <Card.Title>{item.title}</Card.Title>
+                        </Card.Body>
+                    </Card>
                 ))}
             </Row>
         </Container>

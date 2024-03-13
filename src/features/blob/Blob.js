@@ -1,21 +1,40 @@
 import React from 'react';
 import './blob.css';
 
-
 const Blob = () => {
     return (
-        
         <section>
             <div className='blob'>
-           <svg viewBox="0 0 600 500" xmlns="http://www.w3.org/2000/svg" width="120%" id="blobSvg">
-        <defs>
-          <linearGradient id="gradient" x1="0%" y1="0%" x2="0%" y2="100%">
-            <stop offset="0%" style={{stopColor: 'rgb(255, 95, 109)'}}></stop>
-            <stop offset="100%" style={{stopColor: 'rgb(255, 195, 113)'}}></stop>
-          </linearGradient>
-        </defs>
-        <path fill="url(#gradient)">
-            <animate attributeName='d' dur='10000ms' repeatCount='indefinite' values='M445,313Q446,376,392.5,410Q339,444,279.5,450.5Q220,457,168.5,430.5Q117,404,68.5,360.5Q20,317,49.5,258.5Q79,200,95.5,145Q112,90,164.5,53.5Q217,17,283.5,24.5Q350,32,397,78.5Q444,125,444,187.5Q444,250,445,313Z;
+                <svg
+                    viewBox='0 0 600 500'
+                    xmlns='http://www.w3.org/2000/svg'
+                    width='120%'
+                    id='blobSvg'
+                >
+                    <defs>
+                        <linearGradient
+                            id='gradient'
+                            x1='0%'
+                            y1='0%'
+                            x2='0%'
+                            y2='100%'
+                        >
+                            <stop
+                                offset='0%'
+                                style={{ stopColor: 'rgb(255, 95, 109)' }}
+                            ></stop>
+                            <stop
+                                offset='100%'
+                                style={{ stopColor: 'rgb(255, 195, 113)' }}
+                            ></stop>
+                        </linearGradient>
+                    </defs>
+                    <path fill='url(#gradient)'>
+                        <animate
+                            attributeName='d'
+                            dur='10000ms'
+                            repeatCount='indefinite'
+                            values='M445,313Q446,376,392.5,410Q339,444,279.5,450.5Q220,457,168.5,430.5Q117,404,68.5,360.5Q20,317,49.5,258.5Q79,200,95.5,145Q112,90,164.5,53.5Q217,17,283.5,24.5Q350,32,397,78.5Q444,125,444,187.5Q444,250,445,313Z;
             
             M441.5,313Q445,376,386,398Q327,420,275,430Q223,440,168.5,423.5Q114,407,67,362Q20,317,21.5,250Q23,183,63,131.5Q103,80,163.5,74.5Q224,69,281,63Q338,57,387,94Q436,131,437,190.5Q438,250,441.5,313Z;
 
@@ -28,23 +47,43 @@ const Blob = () => {
             M445,313Q446,376,392.5,410Q339,444,279.5,450.5Q220,457,168.5,430.5Q117,404,68.5,360.5Q20,317,49.5,258.5Q79,200,95.5,145Q112,90,164.5,53.5Q217,17,283.5,24.5Q350,32,397,78.5Q444,125,444,187.5Q444,250,445,313Z
 
             
-            '>
+            '
+                        ></animate>
+                    </path>
+                </svg>
+            </div>
 
-            </animate>
-        </path>
-      </svg>
-      </div>
-
-      <div className='blob'>
-           <svg viewBox="0 0 600 500" xmlns="http://www.w3.org/2000/svg" width="120%" id="blobSvg">
-        <defs>
-          <linearGradient id="gradient" x1="0%" y1="0%" x2="0%" y2="100%">
-            <stop offset="0%" style={{stopColor: 'rgb(255, 95, 109)'}}></stop>
-            <stop offset="100%" style={{stopColor: 'rgb(255, 195, 113)'}}></stop>
-          </linearGradient>
-        </defs>
-        <path fill="url(#gradient)">
-            <animate attributeName='d' dur='10000ms' repeatCount='indefinite' values='M445,313Q446,376,392.5,410Q339,444,279.5,450.5Q220,457,168.5,430.5Q117,404,68.5,360.5Q20,317,49.5,258.5Q79,200,95.5,145Q112,90,164.5,53.5Q217,17,283.5,24.5Q350,32,397,78.5Q444,125,444,187.5Q444,250,445,313Z;
+            <div className='blob'>
+                <svg
+                    viewBox='0 0 600 500'
+                    xmlns='http://www.w3.org/2000/svg'
+                    width='120%'
+                    id='blobSvg'
+                >
+                    <defs>
+                        <linearGradient
+                            id='gradient'
+                            x1='0%'
+                            y1='0%'
+                            x2='0%'
+                            y2='100%'
+                        >
+                            <stop
+                                offset='0%'
+                                style={{ stopColor: 'rgb(255, 95, 109)' }}
+                            ></stop>
+                            <stop
+                                offset='100%'
+                                style={{ stopColor: 'rgb(255, 195, 113)' }}
+                            ></stop>
+                        </linearGradient>
+                    </defs>
+                    <path fill='url(#gradient)'>
+                        <animate
+                            attributeName='d'
+                            dur='10000ms'
+                            repeatCount='indefinite'
+                            values='M445,313Q446,376,392.5,410Q339,444,279.5,450.5Q220,457,168.5,430.5Q117,404,68.5,360.5Q20,317,49.5,258.5Q79,200,95.5,145Q112,90,164.5,53.5Q217,17,283.5,24.5Q350,32,397,78.5Q444,125,444,187.5Q444,250,445,313Z;
             
             M441.5,313Q445,376,386,398Q327,420,275,430Q223,440,168.5,423.5Q114,407,67,362Q20,317,21.5,250Q23,183,63,131.5Q103,80,163.5,74.5Q224,69,281,63Q338,57,387,94Q436,131,437,190.5Q438,250,441.5,313Z;
 
@@ -57,14 +96,11 @@ const Blob = () => {
             M445,313Q446,376,392.5,410Q339,444,279.5,450.5Q220,457,168.5,430.5Q117,404,68.5,360.5Q20,317,49.5,258.5Q79,200,95.5,145Q112,90,164.5,53.5Q217,17,283.5,24.5Q350,32,397,78.5Q444,125,444,187.5Q444,250,445,313Z
 
             
-            '>
-
-            </animate>
-        </path>
-      </svg>
-      </div>
-
-
+            '
+                        ></animate>
+                    </path>
+                </svg>
+            </div>
         </section>
     );
 };

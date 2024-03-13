@@ -13,8 +13,8 @@ function App() {
     return (
         <Container fluid className='App'>
             <div className='app-wrapper'>
-            <Header />
-            <Intro />
+                <Header />
+                <Intro />
             </div>
             <BackToTopBtn />
             <Techstack />

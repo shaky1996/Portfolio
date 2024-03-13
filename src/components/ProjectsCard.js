@@ -91,7 +91,7 @@ const ProjectsCard = () => {
                                                 >
                                                     {item.description}
                                                 </Card.Text>
-                                            
+
                                                 <Col className='text-start'>
                                                     {item.techStack.map(
                                                         (tech, index) => (

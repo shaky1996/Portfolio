@@ -8,7 +8,7 @@ const BackToTopBtn = () => {
     useEffect(() => {
         const handleScroll = () => {
             const scrollPosition = window.scrollY;
-            const threshold = 500; 
+            const threshold = 500;
 
             setShowButton(scrollPosition > threshold);
         };

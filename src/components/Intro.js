@@ -7,7 +7,7 @@ import Button from 'react-bootstrap/Button';
 import Icon from '@reacticons/bootstrap-icons';
 import Blob from '../features/blob/Blob';
 import BgImg from '../features/bgimg/BgImg';
-import Resume from '../assets/resume/Shakhzod_Yuldashev_Resume.pdf'
+import Resume from '../assets/resume/Shakhzod_Yuldashev_Resume.pdf';
 
 const Intro = () => {
     const [isXsScreen, setIsXsScreen] = useState(window.innerWidth < 768);
@@ -56,16 +56,8 @@ const Intro = () => {
                         {' '}
                         I build websites and apps
                     </h2>
-                    <a
-                        href={Resume}
-                        target='_blank'
-                        rel='noopener noreferrer'
-                    >
+                    <a href={Resume} target='_blank' rel='noopener noreferrer'>
                         <Button variant='outline-info' className='mt-3'>
-                            <Icon
-                                name='file-earmark-person-fill'
-                                style={{ paddingRight: 5 }}
-                            />
                             My Resume
                         </Button>
                     </a>
