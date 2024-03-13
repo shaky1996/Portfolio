@@ -1,5 +1,7 @@
 # My Portfolio Website
 
+To open the website, please click [here](https://portfolioshakhzod2024.web.app/)
+
 ## Overview
 
 Welcome to my portfolio website! This site is where I showcase my coding projects and provide insights into my background and expertise. Built using React and React Bootstrap, it's designed to be responsive and user-friendly, ensuring an enjoyable experience for visitors across various devices.
