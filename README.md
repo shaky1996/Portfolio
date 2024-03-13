@@ -8,11 +8,15 @@ Welcome to my portfolio website! This site is where I showcase my coding project
 
 ## Features
 
-**Showcase My Projects:** Explore my coding projects, complete with detailed information and links to GitHub repositories or live demos.
-**About Me:** Learn more about me! This section provides insights into my background, skills, and passion for coding.
-**Connect with Me on LinkedIn:** Easily connect with me by accessing my LinkedIn profile directly from the website.
-**Download My Resume:** Interested in learning more about my qualifications? Feel free to download my resume for further information.
-**Built with React and React Bootstrap: **Leveraging the power of React and React Bootstrap, this website reflects my commitment to using modern technologies in my projects.
+- **Showcase My Projects:** Explore my coding projects, complete with detailed information and links to GitHub repositories or live demos.
+
+- **About Me:** Learn more about me! This section provides insights into my background, skills, and passion for coding.
+
+- **Connect with Me on LinkedIn:** Easily connect with me by accessing my LinkedIn profile directly from the website.
+
+- **Download My Resume:** Interested in learning more about my qualifications? Feel free to download my resume for further information.
+
+- **Built with React and React Bootstrap:** Leveraging the power of React and React Bootstrap, this website reflects my commitment to using modern technologies in my projects.
 
 
 ## Motivation
